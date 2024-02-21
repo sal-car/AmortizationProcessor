@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.green-underline-bar {
+    background: linear-gradient(90deg,rgba(187,237,213,0) 0,#bbedd5);
+    position: absolute;
+    top: 60%;
+    left: -1rem;
+    right: -1rem;
+    z-index: -1;
+    height: 70%;
+    width: auto;
+    border-radius: 99999px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
